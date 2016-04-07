@@ -13,8 +13,16 @@ describe("Hello World Test", function() {
 			// request makes call to localhost:3000
 			request.get(base_url, function(error, response, body) {
 				
-				// the test itself, checks if response statusCode is "200"
+				// tests if response statusCode is "200"
 				expect(response.statusCode).toBe(200);
+				done();
+			});
+		});
+
+		// tests if body is equal to "Hello World"
+		it("returns Hello World", function(done) {
+			request.get(base_url, function(error, response, body) {
+				expect(body).toBe("Hello World");
 				done();
 			});
 		});
