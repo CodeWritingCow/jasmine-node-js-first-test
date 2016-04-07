@@ -1,0 +1,18 @@
+{
+  "name": "jasmine-node-js-first-test",
+  "version": "1.0.0",
+  "description": "My first Jasmine test! For a \"Hello World\" Node.js app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gary Pang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "request": "^2.70.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
