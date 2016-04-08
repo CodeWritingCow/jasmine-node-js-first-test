@@ -4,7 +4,7 @@
   "description": "My first Jasmine test! For a \"Hello World\" Node.js app.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-node spec --captureExceptions"
   },
   "author": "Gary Pang",
   "license": "ISC",
